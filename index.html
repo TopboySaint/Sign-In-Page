@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="col-lg-6 col-md-8 col-11 mx-auto mt-lg-5 mt-3 shadow-sm p-lg-5 p-3">
+        <h3 class="text-center text-primary fw-bolder mb    -3">School Portal Login Page</h3>
+        <p class="alert alert-danger text-center p-2 mt-3 animate__animated animate__shakeX" id="errorMsg">
+            Please fill in the required field</p>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="matricNo" placeholder="Enter your email or Matric Number">
+                <label for="floatingPassword">Email Address or Matric Number</label>
+              </div>
+
+              <div class="form-floating">
+                <input type="password" class="form-control mt-3" id="passwordKey" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+        <button onclick="submitDetails()" class="btn btn-sm my-3 w-50 btn-primary mx-auto d-block">Login</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
