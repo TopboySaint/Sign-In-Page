@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Official School Portal Login Page</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/download-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <div class="col-lg-6 col-md-8 col-11 mx-auto mt-lg-5 mt-3 shadow-sm p-lg-5 p-3">
-        <h3 class="text-center text-primary fw-bolder mb    -3">School Portal Login Page</h3>
-        <p class="alert alert-danger text-center p-2 mt-3 animate__animated animate__shakeX" id="errorMsg">
+        <h3 class="text-center text-success fw-bolder header">School portal login page</h3>
+        <p class="text-center text-dark lilHead">Sign Into your account</p>
+        <p class="alert alert-danger text-center p-2 mt-3 fw-bolder animate__animated animate__bounce" id="errorMsg">
             Please fill in the required field</p>
+            <p class="alert alert-success text-center p-2 fw-bolder" id="successMsg">Submitted! In Progress...</p>
             <div class="form-floating">
-                <input type="text" class="form-control" id="matricNo" placeholder="Enter your email or Matric Number">
+                <input type="text" class="form-control shadow-none" id="matricNo" placeholder="Enter your email or Matric Number">
                 <label for="floatingPassword">Email Address or Matric Number</label>
               </div>
 
               <div class="form-floating">
-                <input type="password" class="form-control mt-3" id="passwordKey" placeholder="Password">
+                <input type="password" class="form-control mt-3 shadow-none" id="passwordKey" placeholder="Password">
                 <label for="floatingPassword">Password</label>
               </div>
-        <button onclick="submitDetails()" class="btn btn-sm my-3 w-50 btn-primary mx-auto d-block">Login</button>
+        <button onclick="submitDetails()" class="btn btn-sm mt-4 w-50 btn-success mx-auto d-block bttn">Login</button>
+        <p class="text-center mt-4 forgot"><a href="">Forgot password?</a></p>
     </div>
 
 

@@ -1,3 +1,24 @@
-#errorMsg{
-    display: none;
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Poetsen+One&family=Rubik+Scribble&display=swap");
+
+#errorMsg,
+#successMsg {
+  display: none;
+}
+
+.header {
+  font-size: 35px;
+  font-family: "Poetsen One", sans-serif;
+}
+
+.bttn {
+  font-size: 20px;
+  font-family: "Poetsen One", sans-serif;
+}
+
+.lilHead {
+  font-family: "Poetsen One", sans-serif;
+}
+
+.forgot a{
+  text-decoration: none;
 }
