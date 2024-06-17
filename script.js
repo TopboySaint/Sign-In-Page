@@ -3,6 +3,8 @@ const submitDetails = () => {
     if(matricNo.value == "" || passwordKey.value == ""){
         document.getElementById('errorMsg').style.display = "block"
     }else{
+        document.getElementById('matricNo').value = ""
+        document.getElementById('passwordKey').value = ""
         document.getElementById('errorMsg').style.display = "none"
         document.getElementById('successMsg').style.display = "block"
     
